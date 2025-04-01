@@ -1,0 +1,146 @@
+body {
+    padding: 0 0 0 0;
+    background-position: centre right;
+    background: #f8f3c4 url(images/back1.jpg) top left repeat;
+    font-family: Helvetica, Arial, "Times New Roman", sans-serif;
+}
+.header {
+    padding: 10px 10px 10px 10px;
+    background-color: #b56663;
+}
+.header a {
+    color: #ffffff;
+}
+.header img {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+h1 {
+    color: #ffffff;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+.main-content {
+    width: 500px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #dddddd;
+    margin: 30px auto 0 auto;
+    background: #ffffff  top left repeat;
+}
+.main-content p {
+    line-height: 20px;
+    }
+.nav {
+    padding-left: 0;
+    margin: 15px 0 20px 0;
+    text-align: center;
+}
+.nav li {
+    display: inline;
+}
+h2 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+.recipes{
+    list-style-type: none;
+    padding: 0;
+}
+.recipes li {
+    border: 1px solid #b56663;
+    padding-left: 15;
+    background: #ffffff  top left repeat;
+    height: 100px;
+}
+.recipes a {
+    color: #7facaa;
+    text-decoration: none;
+}
+.recipes img {
+    float: left;
+    width: 90px;
+}
+.recipes li img {
+    float: left;
+    padding-right: 10px;
+    height: 90px;
+}    
+h2,h3 {
+    color: #6eb094; 
+}
+h3 {
+    margin: 15px 0 15px 0;
+    padding-bottom: 3px;
+
+}
+a {
+    text-decoration: none;
+}
+.photos {
+    list-style-type: none;
+    padding: 0;
+}
+.photos li{
+    display: inline;
+    padding-left: 15px; 
+}
+.photos li img{ 
+    width: 145px;
+}
+.featured-image {
+    width: 495px;
+    height: 500px;
+    background: #ffffff url(images/cake4.jpg) top left no-repeat;
+}
+.featured-image h3 {
+    margin: 0;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px 0 5px 15px;
+    text-transform: uppercase;
+}
+.footer p {
+    color: #aaaaaa;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+ }
+ 
+label, input {
+    display: block;
+}
+label {
+    margin-bottom: 10px;
+    
+}
+input[type=submit] {
+    width: 500px;
+    margin-bottom: 25px;
+    border: 2px solid #7facaa;
+}
+input[type=text] {
+    border: 2px solid #7facaa;
+    font-size: 24px;
+    padding: 7px;
+    width: 500px;
+}
+input[type=checkbox], label[for=newsletter] {
+    display: inline; 
+ }  
+textarea {
+    width: 500px;
+    height: 400px;
+    padding: 7px;
+    border: 2px solid #7facaa;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+form{
+    width: 500px;
+    margin: 30px auto 0 auto;
+}
